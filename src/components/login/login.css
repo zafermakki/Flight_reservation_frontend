@@ -1,0 +1,61 @@
+.get-start-container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    background: radial-gradient(circle at 50% 50%, #30003f, #220020);
+}
+  
+  
+.content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    margin-top: 0%;
+}
+
+.main-login{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.text-login{
+    color: #7b1fa2;
+    text-align: center;
+    font-weight: 600;
+}
+.input-login{
+    width: 100%;
+    height: 100%;
+    box-shadow: 5px 5px 30px 1px #7b1fa2;
+    border-radius: 20px;
+}
+.input-user{
+    background-color: transparent;
+    font-size: 20px;
+    width: 400px;
+    height: 40px;
+    margin: 20px;
+    padding: 10px;
+    color: #2196f3;
+}
+.input-password{
+    background-color: transparent;
+    font-size: 20px;
+    width: 400px;
+    height: 40px;
+    margin: 20px;
+    padding: 10px;
+    color: #2196f3;
+}
+.btn-create-account1{
+    position: absolute;
+    left: 20%;
+    top: 54%;
+    transform: translate(-50%,-10%);
+}

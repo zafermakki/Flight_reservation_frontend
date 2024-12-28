@@ -1,0 +1,9 @@
+.earth-container {
+    width: 100vw;         /* عرض كامل الشاشة */
+    height: 100vh;        /* ارتفاع كامل الشاشة */
+    display: flex;        /* استخدام Flexbox */
+    justify-content: center; /* توسيط أفقي */
+    align-items: center;     /* توسيط عمودي */
+    overflow: hidden;     /* منع التمرير */
+  }
+  
