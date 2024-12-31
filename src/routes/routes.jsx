@@ -3,6 +3,7 @@ import Interface from "../components/interface/Interface";
 import Login from "../components/login/Login";
 import CreateAccount from "../components/createAccount/CreateAccount";
 import VerifyEmail from "../components/verifyEmail/VerifyEmail";
+import Dashboard from "../components/dashboard/Dashboard";
 
 export const routes = (setMyMode) => createBrowserRouter([
     {
@@ -19,7 +20,10 @@ export const routes = (setMyMode) => createBrowserRouter([
     },
     {
         path: 'verify-email',
-        element: <VerifyEmail />
-        
+        element: <VerifyEmail />   
+    },
+    {
+        path: '/dashboard',
+        element: <Dashboard />   
     }
 ])
